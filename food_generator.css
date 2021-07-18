@@ -1,0 +1,74 @@
+.center {
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color: #00BFFF;
+    padding: 5px 25px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 2.8px;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.lunchMeal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.rowMeal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.dinnerMeal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.rowMeal2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-top: 10px;
+    padding-right: 10px;
+}
